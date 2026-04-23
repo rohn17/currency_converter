@@ -8,6 +8,7 @@ const CurrencySelector = ({ type, currencies }) => {
     toCurrency,
     setToCurrency,
   } = useCurrency();
+  
 
   const handleChange = (e) => {
     if (type === "from") {

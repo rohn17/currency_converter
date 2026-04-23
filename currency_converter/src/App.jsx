@@ -11,6 +11,7 @@ function App() {
       </div>
     </CurrencyProvider>
   );
+  
 }
 
 export default App;

@@ -8,6 +8,7 @@ export const CurrencyProvider = ({ children }) => {
   const [amount, setAmount] = useState(1);
 
   return (
+    
     <CurrencyContext.Provider
       value={{
         fromCurrency,
